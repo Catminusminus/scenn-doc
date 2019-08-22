@@ -29,7 +29,7 @@ module.exports = {
     ],
     repo: 'Catminusminus/scenn',
     docsRepo: 'Catminusminus/scenn-doc',
-    docsDir: 'docs/docs',
+    docsDir: 'docs',
     editLinks: true,
     editLinkText: 'Any contributions are greatly welcomed. Thank you.',
   }
