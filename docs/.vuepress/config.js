@@ -12,12 +12,12 @@ module.exports = {
         ]
       },
       {
-        text: 'API',
+        text: 'Features',
         items: [
-          { text: 'Model', link: '/api/model.html'},
-          { text: 'Loss Function', link: '/api/loss.html'},
-          { text: 'Activation', link: '/api/activation.html'},
-          { text: 'Layer', link: '/api/layer.html'}
+          { text: 'Model', link: '/feature/model.html'},
+          { text: 'Loss Function', link: '/feature/loss.html'},
+          { text: 'Activation', link: '/feature/activation.html'},
+          { text: 'Layer', link: '/feature/layer.html'}
         ]
       },
       {
