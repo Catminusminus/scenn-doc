@@ -8,8 +8,7 @@ Proof of concept of sequential models of neural networks in compile time.
 
 ## What is this?
 
-You can build your own constexpr neural networks which run in compile time easily. For detailed information, see the [documentation](
-https://catminusminus.github.io/scenn-doc/) (all information in this readme is also in the documentaion).
+You can build your own constexpr neural networks which run in compile time easily.
 
 <strong>XOR Example:</strong>
 ```cpp
@@ -90,8 +89,6 @@ clang++ ./scenn/tests/model/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -
 
 ### Features
 
-For more details, see [documentation](
-https://catminusminus.github.io/scenn-doc/) .
 #### Model
 - `scenn::SequentialNetwork`
     - `SequentialNetwork(loss_function, layers...)`
