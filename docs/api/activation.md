@@ -1,4 +1,0 @@
-# Activation
-## Sigmoid
-
-## Softmax
