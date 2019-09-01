@@ -97,17 +97,19 @@ clang++ ./scenn/tests/model/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -
     - `evaluate(test_data)`
 
 #### Layers
-- `DenseLayer<input_dim, output_dim, num_type>(seed)`
-- `ActivationLayer<dim, num_type>(activation_function)`
+- `scenn::DenseLayer<input_dim, output_dim, num_type>(seed)`
+- `scenn::ActivationLayer<dim, num_type>(activation_function)`
 
 #### Activation
-- `Sigmoid()`
-- `Softmax()`
+- `scenn::Sigmoid()`
+- `scenn::Softmax()`
+- `scenn::ReLU()`
+- `scenn::LeakyReLU(alpha)`
 
 #### Loss Function
-- `MSE()`
-- `BinaryCrossEntropy()`
-- `CrossEntropy()`
+- `scenn::MSE()`
+- `scenn::BinaryCrossEntropy()`
+- `scenn::CrossEntropy()`
 
 ## Limitaion
 
