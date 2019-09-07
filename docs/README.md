@@ -115,9 +115,13 @@ clang++ ./scenn/tests/model/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -
 
 #### Activation
 - `scenn::Sigmoid()`
+- `scenn::HardSigmoid()`
 - `scenn::Softmax()`
 - `scenn::ReLU()`
+- `scenn::ELU(alpha)`
+- `scenn::SeLU<num_type>()`
 - `scenn::LeakyReLU(alpha)`
+- `scenn::ThresholdedReLU(theta)`
 
 #### Loss Function
 - `scenn::MSE()`
