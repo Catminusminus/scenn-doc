@@ -1,7 +1,7 @@
 # Install
 This library is a header-only library.
 
-Include ```<scenn/scenn.hpp>``` and you can use all things provided by scenn except for ```load_mini_mnist_data```. To use `load_mini_mnist_data` function, you need to prepare the mnist sub-dataset by `tools/generate_mini_mnist.py` and include `<scenn/load.hpp>`. For example, in the `tools` directory, run `pipenv install` and `pipenv run python generate_mini_mnist.py`. 
+Include ```<scenn/scenn.hpp>``` and you can use all things provided by scenn except for ```<scenn/load.hpp>```.
 
 ## Requirements
 - [Sprout C++ Libraries](https://github.com/bolero-MURAKAMI/Sprout)

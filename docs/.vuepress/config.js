@@ -8,7 +8,8 @@ module.exports = {
       {
         text: 'Getting Started',
         items: [
-          { text: 'Install', link: '/getting-started/install.html'}
+          { text: 'Install', link: '/getting-started/install.html'},
+          { text: 'Examples', link: '/getting-started/examples.html'}
         ]
       },
       {
