@@ -77,6 +77,13 @@ int main() {
 }
 ```
 
+## Examples
+The example codes in the `examples` directory. The followings are in the directory.
+- XOR
+- MNIST
+- Malware Detection
+  - You need the [ember](https://github.com/endgameinc/ember) dataset to run this example. The citation is `H. Anderson and P. Roth, "EMBER: An Open Dataset for Training Static PE Malware Machine Learning Models”, in ArXiv e-prints. Apr. 2018.
+
 ## How to use?
 
 ### Requirements
