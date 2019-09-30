@@ -4,7 +4,9 @@ This library is a header-only library.
 Include ```<scenn/scenn.hpp>``` and you can use all things provided by scenn except for ```<scenn/load.hpp>```.
 
 ## Requirements
+- Clang 6+
 - [Sprout C++ Libraries](https://github.com/bolero-MURAKAMI/Sprout)
+- Python 3.6 (Optional)
 
 ## Quick Start
 ```

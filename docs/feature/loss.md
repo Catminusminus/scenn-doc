@@ -24,6 +24,10 @@ struct MSE {
 }
 ```
 
+## MSLE
+
 ## BinaryCrossEntropy
 
 ## CrossEntropy
+
+## Hinge

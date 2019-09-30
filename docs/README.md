@@ -87,8 +87,9 @@ The example codes in the `examples` directory. The followings are in the directo
 ## How to use?
 
 ### Requirements
-
+- Clang 6+
 - [Sprout C++ Libraries](https://github.com/bolero-MURAKAMI/Sprout)
+- Python 3.7 (Optional)
 
 ### Install
 
@@ -105,7 +106,7 @@ export SPROUT_PATH=./Sprout/
 export SCENN_PATH=./scenn/
 
 // Run the xor example
-clang++ ./scenn/tests/model/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -std=gnu++2a -fconstexpr-steps=-1
+clang++ ./scenn/examples/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -std=gnu++2a -fconstexpr-steps=-1
 
 // After a few hours
 
@@ -137,8 +138,10 @@ clang++ ./scenn/tests/model/xor.cpp -Wall -Wextra -I$SPROUT_PATH -I$SCENN_PATH -
 
 #### Loss Function
 - `scenn::MSE()`
+- `scenn::MSLE()`
 - `scenn::BinaryCrossEntropy()`
 - `scenn::CrossEntropy()`
+- `scenn::Hinge()`
 
 ## Limitaion
 
